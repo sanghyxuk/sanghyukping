@@ -1,9 +1,9 @@
 ping:
   targets:
     - name: "Main Backend (Render)"
-      url: "https://shieldhub-backend.onrender.com"
-      cron: "0 */4 * * * *"   # 4???
+      url: "https://shieldhub-backend.onrender.com/health"
+      cron: "0 */4 * * * *"
 
     - name: "AI Flask (Render)"
-      url: "https://shieldhub-flask-api.onrender.com"
-      cron: "0 2/4 * * * *"   # 2?, 6?, 10?... (4? ??, ??? ?? ????)
+      url: "https://shieldhub-flask-api.onrender.com/"
+      cron: "0 2/4 * * * *"
